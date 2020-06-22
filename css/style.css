@@ -1,0 +1,54 @@
+.item 
+{
+    position: relative;
+    cursor: pointer;
+}
+
+.overlay
+{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    bottom: 20px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    
+}
+
+
+.overlaycontainer 
+{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overlaybox
+{
+    width: 50%;
+    height: 80vh;
+    background-image: url(../img/agave-botanical-botany-1533960.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.ico-close
+{
+   position: absolute;
+   right: 40px;
+   top: 20px;
+   color: rgba(0,106,125,1);
+}
+
+.icon-mine
+{
+    color: rgb(0, 106, 125);
+    cursor: pointer;
+}
